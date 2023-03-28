@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fc {
+  color: #fff;
+}
+
+.sc {
+  color: #fdd36a;
+}
+
+.tc {
+  color: #000;
+}
+
+.title {
+  font-size: 5rem;
+  line-height: 5rem;
+  height: 5rem;
+}
+
+.subtitle {
+  font-size: 3.5rem;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.hero-section {
+  height: 55rem;
+  background: url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100%;
+  background-position: 50% 80%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1rem;
+  width: 100%;
+  gap: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.link {
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-family: Calibri;
+  cursor: pointer;
+}
+
+.contact-info-navbar {
+  display: flex;
+  flex-direction: column;
+  font-family: Calibri;
+}
+
+.contanct-info-br {
+  border-bottom: 0.05rem solid #fff;
+}
+
+.contact-info {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-logo-globe {
+  height: 9rem;
+  width: 9rem;
+  margin-right: 0.5rem;
+  background: url("./assets/DreamTripLogo.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.navbar-logo-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Calibri;
+}
+
+.navbar-logo-title {
+  font-size: 2.5rem;
+  line-height: 2rem;
+  height: 2rem;
+}
+
+.navbar-logo-subtitle {
+  font-size: 1rem;
+}
+
+.hero-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Calibri;
+  text-shadow: 4px 4px 0px #000000;
+}
+
+.hero-section-images {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.hero-section-image {
+  margin: 0.5rem 0.25rem;
+  height: 18rem;
+  width: 15rem;
+}
+
+.hero-section-button {
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  transition: 0.25s;
+}
+
+.hero-section-button:hover {
+  cursor: pointer;
+  box-shadow: inset 10em 0 0 0 #458ddf;
+}
+
+.hero-section-icons {
+  margin: 0 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 3rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: -10px 10px 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+.hero-section-icon {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-family: Calibri;
+  text-shadow: -5px 5px 20px rgba(0, 0, 0, 0.37);
+}
+
+.hero-section-icon img {
+  filter: drop-shadow(-5px 5px 27px rgba(0, 0, 0, 0.2));
+}
+
+.why-choose {
+  margin: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.why-choose-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Calibri;
+  text-shadow: 4px 3px 11px rgba(0, 0, 0, 0.2);
+}
+
+.why-choose-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.why-choose-icon-box {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.why-choose-icon {
+  margin: 0 10rem;
+}
+
+.why-choose-icon-text {
+  font-size: 1.5rem;
+  font-family: Calibri;
+}
+
+.our-service {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  gap: 5rem;
+}
+
+.our-service-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: Calibri;
+}
+
+.our-service-info {
+  margin: 0 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.our-service-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.our-service-icon-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.our-service-line {
+  margin: 0 1.2rem;
+}
+
+.our-service-icon-text {
+  font-family: Calibri;
+  font-size: 1.5rem;
+  direction: rtl;
+}
+
+.what-said {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.what-said-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Calibri;
+}
+
+.what-said-reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.what-said-review {
+  min-height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f3f3f3;
+  border-radius: 0.5rem;
+  width: 20rem;
+  box-shadow: -10px 10px 50px 0px #0000001a;
+}
+
+.middle-review {
+  width: 25rem;
+}
+
+.middle-review span {
+  font-size: 1.5rem;
+}
+
+.middle-review > .what-said-review-stars {
+  width: 9rem;
+}
+
+.middle-review > .what-said-review-pfp {
+  width: 6rem;
+  height: 6rem;
+}
+
+.what-said-review-pfp {
+  margin: 1rem;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+.what-said-review-text {
+  margin: 1rem;
+  direction: rtl;
+  font-family: Calibri;
+  font-size: 1.2rem;
+}
+
+.what-said-review-stars {
+  width: 8rem;
+}
+
+.contact-us {
+  padding: 5rem 0;
+  gap: 5rem;
+  display: flex;
+  flex-direction: column;
+  height: 55rem;
+  background: url("./assets/Group 42.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.contact-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Calibri;
+}
+
+.footer {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.footer-navabr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+}
+
+.footer-navabr-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.footer-navabr-logo-globe {
+  height: 9rem;
+  width: 9rem;
+  margin: 0.5rem;
+  background: url("./assets/DreamTripLogo.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.footer-navabr-logo-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Calibri;
+}
+
+.footer-navabr-logo-title {
+  font-size: 2.5rem;
+  line-height: 2rem;
+  height: 2rem;
+}
+
+.footer-navabr-logo-subtitle {
+  font-size: 1rem;
+}
+
+.footer-navbar-links {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.footer-navbar-social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Calibri;
+}
+
+.footer-navbar-social-link {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 5%;
+  margin: 0.5rem;
+  text-decoration: none;
+  align-items: center;
+}
+
+.footer-navbar-social-img {
+  display: flex;
+  width: 100%;
+}
+
+.brd {
+  border-left: 1px #000 solid;
+}
+
+.footer-navbar-social-links-title {
+  margin: 1rem 0;
+  font-family: Calibri;
+}
+
+.footer-navbar-social-link-text {
+  color: #000;
+  font-family: Calibri;
+}
